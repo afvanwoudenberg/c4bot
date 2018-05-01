@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1525095335 source:/home/leonardo/Documents/GIT/c4bot/c4.cpp
+	"c4.h"
+
+1525095404 /home/leonardo/Documents/GIT/c4bot/c4.h
+	<array>
+	<vector>
+	<ctime>
+	<random>
+	<iterator>
+	<iostream>
+
+1525096198 source:/home/leonardo/Documents/GIT/c4bot/c4bot.cpp
+	"c4bot.h"
+	<iostream>
+	<sstream>
+	<string>
+
+1525096181 /home/leonardo/Documents/GIT/c4bot/c4bot.h
+	<string>
+	<vector>
+	"c4.h"
+
+1525095357 source:/home/leonardo/Documents/GIT/c4bot/main.cpp
+	"c4bot.h"
+	<iostream>
+	<sstream>
+	<cstdlib>
+	<cstdio>
+
