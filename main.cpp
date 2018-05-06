@@ -4,10 +4,9 @@
 #include "c4bot.h"
 
 int main() {
-	C4Bot bot;
-	bot.run();
-	
-	return 0;
-}
+    C4Bot bot;
+    bot.run();
 
+    return 0;
+}
 
