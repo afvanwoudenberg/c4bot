@@ -37,7 +37,7 @@ void C4Bot::update(std::string &key, std::string &value) {
 		std::vector<std::string> fields = split(value, ',');
 		for (std::string &field : fields) {
 			if (field == "0") {
-				state[row][col] = Player::X; 
+				state[row][col] = Player::X;
 			} else if (field == "1") {
 				state[row][col] = Player::O;
 			} else {
@@ -45,7 +45,7 @@ void C4Bot::update(std::string &key, std::string &value) {
 			}
 			col++;
 			if (col == 7) {
-				row++; 
+				row++;
 				col = 0;
 			}
 		}
@@ -65,9 +65,9 @@ void C4Bot::setting(std::string &key, std::string &value) {
 		your_bot = value;
 	} else if (key == "your_botid") {
 		your_botid = std::stoi(value);
-	} else if (key == "field_columns") {
+	} else if (key == "field_width") {
 		field_columns = std::stoi(value);
-	} else if (key == "field_rows") {
+	} else if (key == "field_height") {
 		field_rows = std::stoi(value);
 	}
 }
